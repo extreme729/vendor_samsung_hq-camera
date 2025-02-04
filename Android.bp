@@ -17,7 +17,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-	skip_preprocessed_apk_checks: true,
 }
 
 android_app_import {
