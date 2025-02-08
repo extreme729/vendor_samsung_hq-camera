@@ -20,6 +20,19 @@ android_app_import {
 }
 
 android_app_import {
+	name: "HQCamera-HS03S",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/HQ_Camera_HS03S/HQ_Camera_HS03S.apk",
+	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
+	presigned: true,
+	preprocessed: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "Sec_CamMediaProvider",
 	owner: "samsung",
 	apk: "proprietary/system/priv-app/CamMediaProvider/CamMediaProvider.apk",
@@ -40,6 +53,15 @@ prebuilt_etc_xml {
 	filename_from_src: true,
 	sub_dir: "permissions",
 }
+
+prebuilt_etc_xml {
+	name: "privapp_whitelist_com.sec.android.app.camera-hs03s.xml",
+	owner: "samsung",
+	src: "proprietary/system/etc/permissions/privapp_whitelist_com.sec.android.app.camera-hs03s.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+}
+
 
 prebuilt_etc_xml {
 	name: "privapp-permissions-me.ayra.android.providers.media.xml",

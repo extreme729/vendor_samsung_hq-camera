@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+<privapp-permissions package="com.sec.android.app.camera">
+<permission name="com.samsung.android.app.screenrecorder.permission.ACCESS_SCREEN_RECORDER_SVC"/>
+<permission name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+<permission name="android.permission.FOREGROUND_SERVICE"/>
+<permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+<permission name="android.permission.ACCESS_NETWORK_STATE"/>
+<permission name="me.ayra.android.providers.media.READ"/>
+<permission name="me.ayra.android.providers.media.WRITE"/>
+<permission name="me.ayra.android.providers.media.CMH"/>
+<permission name="me.ayra.android.providers.media.SCLOUD"/>
+<permission name="android.permission.ACCESS_WIFI_STATE"/>
+<permission name="android.permission.CAMERA"/>
+<permission name="android.permission.READ_SYNC_SETTINGS"/>
+<permission name="android.permission.RECORD_AUDIO"/>
+<permission name="android.permission.VIBRATE"/>
+<permission name="android.permission.WAKE_LOCK"/>
+<permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+<permission name="android.permission.WRITE_SETTINGS"/>
+<permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+<permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+<permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+<permission name="android.permission.ACCESS_WIFI_STATE"/>
+<permission name="android.permission.CHANGE_WIFI_STATE"/>
+<permission name="android.permission.ACCESS_NETWORK_STATE"/>
+<permission name="android.permission.EXPAND_STATUS_BAR"/>
+<permission name="android.permission.ACCESS_MEDIA_LOCATION"/>
+<permission name="android.permission.STATUS_BAR"/>
+<permission name="com.android.launcher3.permission.READ_SETTINGS"/>
+<permission name="com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU"/>
+<permission name="android.permission.DEVICE_POWER"/>
+<permission name="com.samsung.android.permisson.DOUBLE_CLICK"/>
+<permission name="com.samsung.keyguard.SHORTCUT_PERMISSION"/>
+<permission name="com.samsung.android.providers.media.READ"/>
+<permission name="com.samsung.android.providers.media.WRITE"/>
+<permission name="com.samsung.sea.retailagent.permission.RETAILMODE"/>
+<permission name="com.samsung.android.bixby.agent.permission.RECEIVE_BIXBY_VIEW_STATE"/>
+<permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+<permission name="androidx.appcompat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+<permission name="com.google.android.material.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+<permission name="androidx.recyclerview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+<permission name="androidx.preference.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+<permission name="androidx.dynamicanimation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+</privapp-permissions>
+</permissions>
