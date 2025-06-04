@@ -12,7 +12,6 @@ android_app_import {
 	apk: "proprietary/system/priv-app/HQ_Camera_HS04/HQ_Camera_HS04.apk",
 	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
 	presigned: true,
-	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -25,7 +24,6 @@ android_app_import {
 	apk: "proprietary/system/priv-app/HQ_Camera_HS03S/HQ_Camera_HS03S.apk",
 	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
 	presigned: true,
-	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -36,13 +34,11 @@ android_app_import {
 	name: "Sec_CamMediaProvider",
 	owner: "samsung",
 	apk: "proprietary/system/priv-app/CamMediaProvider/CamMediaProvider.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-    skip_preprocessed_apk_checks: true,
 }
 
 
